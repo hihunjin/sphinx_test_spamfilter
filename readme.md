@@ -13,3 +13,11 @@ At the moment, the email directory is hardcoded and uses *nix pathnames.
 ```
 apt update;apt install vim tree make python3-sphinx -y;pip install sphinx_rtd_theme
 ```
+
+# Run
+
+```
+sphinx-apidoc -f -o dos/ [project_mother_path]
+# # options
+# -h : help
+```
